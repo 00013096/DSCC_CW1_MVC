@@ -8,7 +8,7 @@ namespace DSCC_CW1_MVC.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly string BaseUrl = "http://localhost:7110/";
+        private readonly string BaseUrl = "http://ec2-3-94-152-2.compute-1.amazonaws.com/";
 
         // GET: DepartmentController
         public async Task<ActionResult> Index()
